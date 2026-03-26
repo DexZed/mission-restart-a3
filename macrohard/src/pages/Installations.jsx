@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDatabase } from "../database/LocalDB";
-import { numberFomatter } from "../lib/utils";
+import { numberFomatter, successToast } from "../lib/utils";
 import CardAnimation from "../components/CardAnimation";
 
 function Installations() {
@@ -8,6 +8,7 @@ function Installations() {
   const [sort, setSort] = useState("");
   const handleClick = (item) => {
     removeItem(item);
+    successToast("App Uninstalled!");
   };
   const handleChange = (e) => {
     setSort(e.target.value);
