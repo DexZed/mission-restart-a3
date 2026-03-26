@@ -155,7 +155,7 @@ function Nav() {
                 src="/Sharingan-PNG-File.png"
                 alt="logo"
               />
-              <a className="btn btn-ghost text-xl">Macrohard IO</a>
+              <a className="btn btn-ghost text-xl">Magane AI</a>
             </div>
           </div>
           <div className="navbar-center hidden lg:flex">
