@@ -71,7 +71,7 @@ function App() {
                 }
               />
               <Route
-                path="/*"
+                path="*"
                 element={
                   <Container>
                     <ErrorPage />
