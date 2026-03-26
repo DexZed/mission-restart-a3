@@ -14,7 +14,7 @@ function Hero() {
               We Build <span className="text-amber-500">Productive</span> Apps
             </h1>
             <p className="">
-              At Hero.IO, we craft innovative apps designed to make everyday
+              We craft innovative apps designed to make everyday
               life simpler, smarter, and more exciting. Our Goal is to turn your
               ideas into reality.
             </p>
